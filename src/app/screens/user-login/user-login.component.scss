@@ -1,0 +1,216 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  background-color: #FAF7F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 5% 10% 5% 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 50%;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.logo svg {
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.formTitle {
+  display: block;
+  text-align: left;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: x-large;
+  color: #444;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #FFB414;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+button:hover {
+  background-color: #fbac00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1,
+  h2 {
+    font-size: 20px;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+  }
+}
+
+.login-form .form-icon {
+  text-align: center;
+  background-color: #5891ff;
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 50px;
+  line-height: 100px;
+}
+
+.login-form form {
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+  padding: 50px 70px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.login-form .social-media {
+  max-width: 600px;
+  background-color: #fff;
+  margin: auto;
+  padding: 35px 0;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #9fadca;
+  border-top: 1px solid #dee9ff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.login-form .social-icons {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.login-form .social-icons a {
+  font-size: 23px;
+  margin: 0 3px;
+  color: #5691ff;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 45px;
+  display: inline-block;
+  height: 45px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 45px;
+}
+
+.login-form .social-icons a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+  .login-form form {
+    padding: 50px 20px;
+  }
+
+  .login-form .form-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 70px;
+  }
+}
+
+.invalidMsg {
+  display: block;
+  text-align: left;
+  margin-top: 2px;
+  font-size: x-small;
+  color: red;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+}
+
+.form-control.ng-touched.ng-invalid {
+  border: 1px solid red;
+}
+
+.form-control.ng-touched.ng-valid {
+  border: 1px solid green;
+}
+
+.form-group {
+  margin: 20px;
+  width: 400px;
+}
+
+.png-container {
+  overflow: hidden;
+}
+
+.png-container img {
+  filter: drop-shadow(0px 1000px 0 #0d6efd);
+  transform: translateY(-1000px);
+  align-items: center;
+  height: 75px;
+  padding-left: 175px;
+  margin-bottom: 30px;
+}
